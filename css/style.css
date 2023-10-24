@@ -1,0 +1,53 @@
+*{margin: 0;padding: 0;}
+nav{height: 64px;margin: 0 24px;}
+.nav li {float:right;display: inline;margin-left: 16px; }
+#logo{float: left;}
+.header{display: inline;float: left;padding-top: 3px;}
+nav{padding-top: 16px;}
+.nav{float: right;}
+.partTwo{margin: 32px 24px;}
+.partTwo_o{padding: 16px;}
+#n{margin-top: 16px;}
+.ab{border: 10px solid rgb(189, 185, 185); }
+.boxCourse .col-4{margin: 32px 0px;}
+.content { background-color: rgb(158, 154, 154);  display: flex;   justify-content: space-between;
+  }
+  .banner {   padding: 32px 24px;   width: 60%;
+  }
+  
+  .learn {
+    width: 40%;margin: auto 0px;color: rgb(71, 71, 71);
+  }
+  #startBtn{padding: 8px 0px;width: 200px;background-color: rgb(55, 55, 55);color: white;}
+.thirdSection{background-color: rgb(189, 185, 185);}
+.thirdSection h3,p{padding-left: 16px;}
+.stLearn{padding-top: 32px;}
+.part5{padding-top: 16px;padding-bottom: 16px;}
+.part6{margin-left: 24px;margin-bottom: 24px;}
+.bgColor{background-color: gray;}
+footer{margin-left: 24px;margin-top: 16px;margin-bottom: 16px;}
+
+
+
+#navLogo{display: none;}
+#navLogo img{margin: 0 22px;}
+#courseBox{display: none;}
+.courses{padding: 16px 16px 24px 16px;background-color: rgb(184, 181, 181);margin-bottom: 8px;display: none;}
+@media only screen and (max-width: 375px) {
+    #navMain{display: none;}
+    #navLogo{display: block;width: 100%;}
+    .banner img{display: block;width: 300px;}
+    .content{flex: none;display: block;width: 100%;}
+    .learn{width: 90%;margin: 32px 16px;}
+   .partTwo{display: none;}
+    #startBtn{width: 80%;margin: 24px 16px 32px 24px;}
+    .partTwo_o img{ width: 100%;}
+    .bgColor{background-color: white;}
+    #courseBox{display: block;margin: 16px 16px 32px 16px;}
+    .courses{display: block;}
+    .thirdSection{display: none;}
+    video{width: 100%;padding: 0px;margin: 0px;}
+    #lastBox{display: none;}
+    .part6 h1,p{display: none;}
+    footer span{display: none;}
+}
